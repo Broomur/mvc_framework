@@ -1,0 +1,18 @@
+{
+    "autoloadFolder": [
+		"Framework",
+		"Controllers",
+		"Models",
+		"Framework/Exceptions",
+		"Models/Managers",
+		"Models/Entities"
+	],
+    "database": {
+        "name": "Ma base de données",
+        "dbname": "lightup",
+        "host": "localhost",
+        "user": "root",
+        "password": ""
+    },
+    "basepath": "/mvc_framework"
+}
