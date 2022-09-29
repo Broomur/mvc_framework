@@ -18,7 +18,7 @@ try {
     $httpRequest->setRoute($router->findRoute($httpRequest, $config->basepath));
     $httpRequest->run($config->database);
 } catch (Exception $e) {
-    $httpRequest = new HttpRequest('/Error', 'GET');
+    $httpRequest = new HttpRequest('/Home', 'GET');
     $router = new Router();
     $httpRequest->setRoute($router->findRoute($httpRequest, $config->basepath));
     $httpRequest->addParam($e);
